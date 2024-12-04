@@ -3,7 +3,8 @@ A program for training a LoRA for the [LLaMa 3.1 8B-Instruct](https://huggingfac
 
 ## To run: 
 (Model must be obtained from [HuggingFace](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) in order to run)
-(Info for running on CU Denver Heracles cluster included in file comments)
+
+(Info for running on a cluster with Slurm included in file comments)
 ### Training: 
 `$ python train.py`
 ### Inference:
